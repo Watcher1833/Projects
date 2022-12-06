@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="container">
+        <header class="header">
+      <h1 id="title">CodeCamp Test App</h1>
+      <p id="description"> Testing my skills in HTML code</p>
+      </header>
+      <form id="survey-form">
+        <div class="form">
+          <label id="name-label" for="name">Name</label>
+          <input 
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          required />
+          </div>
+<div class="form">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" 
+          name="email"
+          id="email" 
+          required 
+          Placeholder="Enter your email"/>
+</div>
+<div class="form">
+<label id="number-label" for="number">Age</label>
+<input 
+type="number" 
+name="Age" 
+id="number"
+placeholder="Age"
+min="13"
+max="120">
+</div>
+<div class="form">
+  <p>How hard was this test?</p>
+  <select id="dropdown" name="hardness" required>
+    <option disable selected value>"select one"</option>
+    <option value="hard"></option>
+    <option value="medium"></option>
+    <option value="easy"></option>
+    </select>
+    </div>
+    <div class="form">
+      <p>Would you take this course again</p>
+      <label>
+        <input
+        type="radio"
+        name="recommend"
+        value="yes"
+        checked
+            />Yes</label>
+      <label>
+        <input
+        type="radio"
+        name="recommend"
+        value="no"
+        />No</label>
+      <label>
+        <input
+        type="radio"
+        name="recommend"
+        value="maybe"
+        />Maybe</label>
+        </div>
+        <div class="form">
+          <p> What should we add to the course?</p> 
+          <label>
+          <input type="checkbox"
+          value="video">Videos</label>
+          <label>
+            <input type="checkbox" value="audio-files">Audio Files</label>
+          </div>
+         <div class="form">
+          <p>How could this test be improved?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Comment Here...""
+          ></textarea>
+        </div>
+        <div class="form">
+          <button type="submit" id="submit" Class="Submit">
+            Submit
+            </button>
+            </div>
+          </div>
+        </form>
+        </div>
+      </body>
+  </html>
